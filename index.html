@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Producer Website</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="hero" id="top">
+  <nav class="navbar">
+    <span class="nav-item">HOME</span>
+    <span class="nav-item">ABOUT</span>
+    <span class="nav-item">CONTACT</span>
+  </nav>
+
+  <div class="producer-info">
+    <h1 class="producer-name">MIRJA MAIER</h1>
+    <h2 class="producer-title">MUSIC PRODUCER</h2>
+    <button onclick="scrollToContent()">View My Work</button>
+  </div>
+
+</section>
+
+<section class="content" id="content">
+    <div class="circle circle1"></div>
+<div class="circle circle2"></div>
+<div class="circle circle3"></div>
+
+  <h2>ABOUT ME</h2>
+  <img src="img/4.jpg" alt="Placeholder image" class="about-img">
+  <p>Hello and welcome! I'm Mirja, a passionate freelance music producer who lives for creating unique and inspiring soundscapes. Music has always been an integral part of my life, and my journey as a producer has been a thrilling adventure of artistic expression, exploration, and growth. With a diverse portfolio that spans multiple genres, my love for producing is fueled by the limitless possibilities of sound and the transformative power of music.
+
+    My expertise lies in blending creativity with technical proficiency to create innovative compositions that captivate listeners and elevate the overall artistic experience. I am dedicated to nurturing a collaborative environment and building lasting relationships with artists, ensuring that their visions come to life in the most authentic and impactful way possible.</p>
+</section>
+
+<section class="contact">
+  <form class="contact-form">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="4" placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script>
+  function scrollToContent() {
+    document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+<footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="32" height="32">
+      </a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="32" height="32">
+      </a>
+      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter" width="32" height="32">
+      </a>
+    </div>
+    <div class="impressum">
+      <span>Impressum</span>
+    </div>
+  </footer>
+
+</body>
+</html>
+
