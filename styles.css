@@ -2,9 +2,9 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-}
+  }
 
-.hero {
+  .hero {
     background-image: url('img/1.jpg');
     height: 100vh;
     background-position: center;
@@ -14,9 +14,9 @@ body, html {
     justify-content: center;
     align-items: center;
     position: relative;
-}
+  }
 
-.navbar {
+  .navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,14 +25,14 @@ body, html {
     justify-content: space-around;
     width: 30%;
     font-size: 1.2rem;
-}
+  }
 
-.nav-item {
+  .nav-item {
     color: #ffffff;
     cursor: pointer;
-}
+  }
 
-.hero button {
+  .hero button {
     font-size: 1.2rem;
     padding: 10px 20px;
     border: none;
@@ -41,7 +41,7 @@ body, html {
     cursor: pointer;
     display: block;
     margin-top: 20px;
-}
+  }
 
 .content {
     padding: 50px;
@@ -127,3 +127,26 @@ footer {
         width: 100%;
     }
 }
+
+.producer-name {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0;
+        color: #ffffff;
+      }
+
+      .producer-title {
+        font-size: 2.5rem;
+        margin: 0;
+        font-weight: light;
+
+        color: #ffffff;
+      }
+
+      .producer-info {
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+      }
